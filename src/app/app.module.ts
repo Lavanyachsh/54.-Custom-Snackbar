@@ -19,6 +19,7 @@ import { NotificationsComponent } from './components/notifications/notifications
 import { SipDashboardComponent } from './components/sip-dashboard/sip-dashboard.component';
 //import { SipdashboardlistComponent } from './sipdashboardlist/sipdashboardlist.component';
 import { SipdashboardlistComponent } from './components/sipdashboardlist/sipdashboardlist.component';
+import { HotellistComponent } from './components/hotellist/hotellist.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SipdashboardlistComponent } from './components/sipdashboardlist/sipdash
     ChangeDatesComponent,
     NotificationsComponent,
     SipDashboardComponent,
-    SipdashboardlistComponent
+    SipdashboardlistComponent,
+    HotellistComponent
    
   ],
   imports: [

@@ -183,6 +183,7 @@ export class BookingComponent implements OnInit
     this.hotelsService.getHotels().subscribe(
       (response: Hotel[]) =>
       {
+        debugger;
         this.hotels = response;
       },
       (error) =>

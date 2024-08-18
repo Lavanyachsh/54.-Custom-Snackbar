@@ -12,6 +12,7 @@ export class HotelsService
 
   getHotels(): Observable<Hotel[]>
   {
-    return this.httpClient.get<Hotel[]>(`http://localhost:7000/hotels`);
+    debugger;
+    return this.httpClient.get<Hotel[]>(`http://localhost:30487/api/Hotel`);
   }
 }
